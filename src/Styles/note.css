@@ -1,0 +1,82 @@
+#main-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    height: 70vh;
+    gap: 2.5vh;
+}
+
+#work-area {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    gap: 2vh;
+}
+
+#new-note-input {    
+    width: 50%;
+    height: 70vh;
+    color: white;
+    background-color: transparent;
+    caret-color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    resize: none;
+    outline: none;
+    font: inherit;
+    font-size: 90%;
+    padding: 0.5em;
+}
+
+#preview-parent {
+    width: 50%;
+    color: white;
+    background-color: #131921;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-align: start;
+    overflow: auto;
+    outline: none;
+}
+
+#preview {
+    height: 70vh;
+    margin-top: -1.5em;
+    padding: 1em;
+}
+
+#preview h1 {
+    font-size: 200%,
+}
+
+#save-note-button:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f0c7";
+    font-size: 150%;
+    vertical-align: middle;
+    margin-right: 0.4em;
+}
+
+#save-note-button {
+    background-color: skyblue;
+    width: 10rem;
+    line-height: 2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.95rem;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: background-color 0.2s ease-in-out, transform 0.15s ease-in-out;
+    user-select: none;
+    outline: none;
+}
+
+#save-note-button:hover {
+    background-color: #549BC9;
+}
+
+#save-note-button:active {
+    transform: scale(0.95);
+}

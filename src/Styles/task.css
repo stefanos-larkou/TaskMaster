@@ -1,0 +1,180 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+form {
+    background-color: #171e27;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"] {
+    background-color: #323f4f;
+    color: inherit;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    margin: 0;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+.checklist-task {
+    font-size: 16px !important;
+    width: 55%;
+}
+
+.checklist-task-done {
+    font-family: inherit;
+    background-color: #252f3d;
+    font-size: 16px !important;
+    width: 55%;
+    padding: 9px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    overflow: auto;
+    margin: 0;
+}
+
+.done-button {
+    font-weight: bold;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    height: 4.5vh;
+    width: 8em;
+    background-color: orange;
+}
+
+.done-button:hover {
+    background-color: #ff9600
+}
+
+.done-button:active {
+    background-color: #ff8500
+}
+
+.remove-button {
+    font-weight: bold;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    height: 4.5vh;
+    width: 8em;
+    background-color: red;
+}
+
+.remove-button:hover {
+    background-color: #880000
+}
+
+.remove-button:active {
+    background-color: #770000
+}
+
+input[type="submit"] {
+    background-color: skyblue;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    outline: none;
+}
+
+input[type="submit"]:hover {
+    background-color: blue;
+}
+
+.checklist-container {
+    margin-bottom: 10%;
+}
+
+.checklist {
+    margin-top: 20px;
+}
+
+.checklist-item {
+    display: flex;
+    align-items: center;
+    margin-left: 2%;
+    margin-top: 4%;
+    margin-bottom: 3%;
+    gap: 2vw;
+}
+
+.checklist-checkbox {
+    transform: scale(1.5);
+    outline: none;
+}
+
+#button-container {
+    align-self: center;
+    justify-self: center;
+    width: 110%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.task-button {
+    color: inherit;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    height: 2rem;
+    cursor: pointer;
+    user-select: none;
+    outline: none;
+    transition: background-color 0.2s ease-in-out, transform 0.15s ease-in-out;
+}
+
+.fa-circle-plus {
+    margin-right:  0.4em;
+}
+
+#add-task-button {
+    background-color: skyblue;
+    letter-spacing: 1px;
+}
+
+#add-task-button:hover {
+    background-color: royalblue;
+}
+
+#add-task-button:active {
+    transform: scale(0.95);
+}
+
+#save-task-button:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f0c7";
+    font-size: 140%;
+    vertical-align: middle;
+    margin-right: 0.4em;
+}
+
+#save-task-button {
+    background-color: green;
+    letter-spacing: 1px;
+}
+
+#save-task-button:hover {
+    background-color: #006900;
+}
+
+#save-task-button:active {
+    transform: scale(0.95);
+}

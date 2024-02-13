@@ -1,0 +1,57 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    color: white;
+    background-color: #252A32;
+}
+
+button {
+    outline: none;
+    user-select: none;
+}
+
+.title {
+    color:skyblue; 
+    user-select: none; 
+    text-align: center;
+}
+
+.emoji {
+    background: transparent;
+    height: 1em;
+    vertical-align: -0.1em;
+    width: 1em;
+}
+
+::-webkit-scrollbar{
+    border-radius: 10px;
+    background-color: #181d27;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: #549BC9;
+}
+
+.back-arrow {
+    font-size: 300%;
+    color: #700000;
+    transition: color 0.3s ease-in-out, transform 0.15s ease-in-out;
+}
+
+.back-arrow:hover {
+    color: red;
+}
+
+.back-arrow:active {
+    color: red;
+    transform: scale(0.90);
+}
+
+#back-button {
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    margin: 0;
+}

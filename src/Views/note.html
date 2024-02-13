@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>TaskMaster++</title>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+    <link rel="stylesheet" href="../Styles/styles.css"/>
+    <link rel="stylesheet" href="../Styles/note.css"/>
+
+    <script type="module" src="../Scripts/buttonHandler.js"></script>
+    <script type="module" src="../Scripts/note.js"></script>
+  </head>
+
+  <body>
+    <h1 class="title">Note</h1>
+    <button id="back-button"><i class="fa-solid fa-arrow-left back-arrow"></i></button>
+    <p style="margin-top: 5vh">Write your note below:</p>
+    <div id="main-body">
+      <div id="work-area">
+        <textarea id="new-note-input" placeholder="Enter you note here..."></textarea>
+        <div id="preview-parent"><div id="preview"></div></div>
+      </div>
+      <button id="save-note-button">Save Note</button>
+    </div>
+</html>

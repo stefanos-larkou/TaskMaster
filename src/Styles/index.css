@@ -1,0 +1,47 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: auto; 
+  align-items: center;
+  justify-content: center;
+}
+
+#menu-button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.menu-button {
+  background-color: skyblue;
+  padding: 1.5vh 4vh;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.875rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  flex-basis: 100%;
+  width: 100%;
+  transition: background-color 0.2s ease-in-out, transform 0.15s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+#quit-app {
+  background-color: crimson;
+}
+
+#quit-app:hover {
+  background-color: red;
+  box-shadow: 0 0 10px 0px rgba(255, 0, 0, 0.4);
+}
+
+.menu-button:hover {
+  background-color: royalblue;
+  box-shadow: 0 0 10px 0px rgba(65, 105, 225, 0.4);
+}
+
+.menu-button:active {
+  transform: scale(0.95);
+}

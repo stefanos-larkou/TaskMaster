@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>TaskMaster++</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+    <link rel="stylesheet" href="../Styles/styles.css"/>
+    <link rel="stylesheet" href="../Styles/task.css"/>
+
+    <script type="module" src="../Scripts/buttonHandler.js"></script>
+    <script type="module" src="../Scripts/task.js"></script>
+  </head>
+  <body>
+    <h1 class="title">Task List</h1>
+    <button id="back-button"><i class="fa-solid fa-arrow-left back-arrow"></i></button>
+
+    <form>
+      <input type="text" id="list-name" placeholder="Enter task list's name here..." required>
+
+      <div id="checklist-container">
+        <div class="checklist-item"></div>
+      </div>
+
+      <div id="button-container">
+        <button type="button" id="add-task-button" class="task-button"><i class="fa-solid fa-circle-plus"></i>Add Task</button>
+        <button type="button" id="save-task-button" class="task-button">Save Task List</button>
+      </div>
+    </form> 
+  </body>
+</html>

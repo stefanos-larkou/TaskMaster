@@ -1,0 +1,64 @@
+#file-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vh;
+    width: 95%;
+    margin: auto;
+}
+
+.file-buttons {
+    display: flex;
+    gap: 2vw;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.file-delete-button {
+    border-radius: 5px;
+    background-color: red;
+    height: auto;
+    min-height: 6vh;
+    width: auto;
+    min-width: 6vh;
+    border: none;
+    font-size: 18px;
+    color: inherit;
+    text-align: center;
+    transition: box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.file-delete-button:hover {
+    box-shadow: 0 0 10px 0px rgba(255, 0, 0, 0.8);
+}
+
+.file-delete-button:active {
+    box-shadow: 0 0 0 0;
+    background-color: #550000;
+    transform: scale(0.95);
+}
+
+.file-button {
+    width: 90%;
+    border: none;
+    background-color: #344252;
+    color: inherit;
+    height: auto;
+    min-height: 6vh;
+    border-radius: 10px;
+    padding: 0.5em;
+    background: linear-gradient(to bottom, #303e4c, #3e4c5f);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.15s ease-in-out;
+    white-space: normal;
+    word-wrap: break-word;
+    font-size: 18px;
+}
+
+.file-button:hover {
+    transform: scale(1.04);
+}
+
+.file-button:active {
+    transform: scale(1.02);
+}
